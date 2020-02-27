@@ -3,7 +3,7 @@ import React, { Component, lazy, Suspense } from 'react'
 // import LazyLoading from './components/LazyLoading'
 const LazyLoading = lazy(() => import('./components/LazyLoading'))
 
-export class App extends Component {
+export class App extends Component { //React LazyLoading
   render() {
     return (
       

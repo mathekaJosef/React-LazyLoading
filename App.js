@@ -8,7 +8,10 @@ export class App extends Component { //React LazyLoading
     return (
       
         <div style={{margin:10}}>
-          <div>another component</div>
+          
+          <div>another component</div> {
+            //this text will appear first
+          }
           <Suspense fallback={<div>Loading...</div>}>
             <LazyLoading/>
           </Suspense>

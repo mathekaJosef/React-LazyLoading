@@ -1,6 +1,4 @@
 import React, { Component, lazy, Suspense } from 'react' //the most important components
-// import TodoApp from './components/TodoApp'
-// import LazyLoading from './components/LazyLoading'
 const LazyLoading = lazy(() => import('./components/LazyLoading'))
 
 export class App extends Component { //React LazyLoading
